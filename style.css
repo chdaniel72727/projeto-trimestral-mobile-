@@ -1,6 +1,42 @@
-header {
-    font-size: 40px;
-    text-align: center;
-    background-color: blue;
-    padding: 1rem;
-}
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background-color: #e0f2e9;
+        }
+        h2 {
+            color: #003366;
+        }
+        h1 {
+            color: #00296b;
+            text-align: center;
+            font-size: 50px;
+            margin-top: 50px;
+        }
+        .brasil {
+            background: #f9f9f9;
+            border-left: 4px solid #107c10;
+            padding: 15px;
+            margin-bottom: 20px;
+            .p {
+                line-height: 1.0;
+            }
+        }
+        ul {
+            padding-left: 20px;
+        }
+    @media (max-width) {
+        body {
+            font-size: 16px;
+        }
+        h1 {
+            font-size: 20px;
+        }
+
+        .brasil h2 {
+            font-size: 18px;
+        }
+    }
